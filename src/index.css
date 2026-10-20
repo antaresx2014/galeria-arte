@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Gallery & Luxury Utilities */
+.room-wall-bg {
+  background: 
+    radial-gradient(circle at 50% 25%, rgba(255, 255, 255, 0.85) 0%, rgba(240, 237, 233, 0.95) 55%, rgba(215, 210, 203, 1) 100%);
+}
+
+.luxury-frame-shadow {
+  box-shadow: 
+    0 35px 60px -15px rgba(20, 20, 20, 0.35),
+    0 15px 25px -10px rgba(0, 0, 0, 0.15),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+.museum-spotlight {
+  background: radial-gradient(circle at 50% 30%, rgba(255, 255, 240, 0.18) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
