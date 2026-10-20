@@ -89,7 +89,7 @@ export const Footer: React.FC = () => {
             <div className="pt-2 text-xs text-gallery-400 space-y-1">
               <p className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-gold" />
-                Estudios en: Madrid & Costa Brava (España)
+                Atelier & Estudio en: Barcelona (España)
               </p>
               <p className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-gold" />

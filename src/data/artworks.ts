@@ -3,7 +3,7 @@ import type { Artwork } from '../types/artwork';
 export const ARTIST_INFO = {
   name: 'Tomás Odión',
   tagline: 'Expresionismo Figurativo, Simbolismo & Empastes Táctiles',
-  location: 'España',
+  location: 'Barcelona, España',
   bio: 'Tomás Odión es un pintor plástico contemporáneo cuya obra se caracteriza por una potente carga cromática, trazos matéricos directos y un lenguaje visual expresionista y simbólico. En sus composiciones conviven figuras humanas entrelazadas con la naturaleza, visiones alegóricas, naturalezas vivas y fauna totémica donde el empaste denso y la vibración del color son protagonistas absolutos.',
   statement: '"Pintar es dialogar con la materia y la emoción sin filtros. Cada golpe de espátula y cada mancha buscan revelar la fuerza visceral de lo vivo."',
   exhibitions: [

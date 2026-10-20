@@ -119,7 +119,7 @@ export const ArtistSection: React.FC = () => {
                   ¿Desea concertar una visita privada al taller?
                 </h4>
                 <p className="text-xs text-gallery-500 mt-0.5">
-                  Reuniones confidenciales con coleccionistas en Madrid o Costa Brava.
+                  Reuniones confidenciales con coleccionistas en el atelier de Barcelona.
                 </p>
               </div>
               <a
