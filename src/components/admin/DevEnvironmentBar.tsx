@@ -1,5 +1,6 @@
 import React from 'react';
 import { Eye, Settings, HardDrive } from 'lucide-react';
+import { APP_VERSION } from '../../version';
 
 interface DevEnvironmentBarProps {
   viewMode: 'client' | 'admin';
@@ -22,7 +23,7 @@ export const DevEnvironmentBar: React.FC<DevEnvironmentBarProps> = ({
         <div className="flex items-center gap-2.5">
           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-700/60 font-mono text-[11px] font-semibold">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            LOCAL-FIRST DEV
+            v{APP_VERSION} • LOCAL-FIRST DEV
           </span>
           <span className="hidden md:inline-flex items-center gap-1.5 text-gallery-400 text-[11px]">
             <HardDrive className="w-3.5 h-3.5 text-gold-400" />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { Artwork, ArtworkCategory, ArtworkStatus } from '../../types/artwork';
 import type { SiteContent } from '../../types/siteContent';
+import { APP_VERSION } from '../../version';
 import { formatPrice } from '../../utils/formatters';
 import {
   FileText,
@@ -265,7 +266,7 @@ export const LocalAdminPanel: React.FC<LocalAdminPanelProps> = ({
               <h1 className="font-serif text-xl sm:text-2xl font-bold text-white tracking-tight flex items-center gap-2">
                 CMS Local de Tomás Odión
                 <span className="text-[10px] uppercase font-sans font-semibold tracking-widest px-2 py-0.5 rounded bg-gold/20 text-gold-300 border border-gold/40">
-                  Físico
+                  v{APP_VERSION} • Físico
                 </span>
               </h1>
               <p className="text-xs text-gallery-400">

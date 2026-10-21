@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import type { SiteContent } from '../../types/siteContent';
+import { APP_VERSION } from '../../version';
 import { ShieldCheck, Truck, Sparkles, Send } from 'lucide-react';
 
 interface FooterProps {
@@ -180,7 +181,12 @@ export const Footer: React.FC<FooterProps> = ({ siteContent }) => {
 
         {/* Bottom Copyright */}
         <div className="pt-12 mt-12 border-t border-gallery-800 flex flex-col sm:flex-row items-center justify-between text-xs text-gallery-500 gap-4">
-          <p>© 2026 {artist.name}. {footer.copyrightNotice}</p>
+          <div className="flex items-center gap-2.5 flex-wrap justify-center sm:justify-start">
+            <p>© 2026 {artist.name}. {footer.copyrightNotice}</p>
+            <span className="px-2 py-0.5 rounded bg-gallery-800 text-gold-400 font-mono text-[10px] border border-gallery-700/80 font-semibold tracking-wider">
+              v{APP_VERSION}
+            </span>
+          </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-gallery-300">Aviso Legal</a>
             <a href="#" className="hover:text-gallery-300">Privacidad</a>
