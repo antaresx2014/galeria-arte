@@ -195,8 +195,8 @@
     "price": 2750,
     "status": "sold",
     "dimensions": {
-      "height": 90,
-      "width": 60,
+      "height": 100,
+      "width": 70,
       "depth": 3,
       "unit": "cm"
     },
@@ -227,7 +227,7 @@
     "status": "available",
     "dimensions": {
       "height": 70,
-      "width": 90,
+      "width": 100,
       "depth": 3,
       "unit": "cm"
     },
@@ -258,7 +258,7 @@
     "status": "available",
     "dimensions": {
       "height": 100,
-      "width": 65,
+      "width": 70,
       "depth": 3.5,
       "unit": "cm"
     },
@@ -288,8 +288,8 @@
     "price": 2600,
     "status": "available",
     "dimensions": {
-      "height": 75,
-      "width": 90,
+      "height": 70,
+      "width": 100,
       "depth": 3,
       "unit": "cm"
     },
@@ -381,7 +381,7 @@
     "price": 3400,
     "status": "available",
     "dimensions": {
-      "height": 110,
+      "height": 100,
       "width": 70,
       "depth": 3.5,
       "unit": "cm"
@@ -413,7 +413,7 @@
     "status": "available",
     "dimensions": {
       "height": 100,
-      "width": 65,
+      "width": 70,
       "depth": 3,
       "unit": "cm"
     },
@@ -444,7 +444,7 @@
     "status": "available",
     "dimensions": {
       "height": 100,
-      "width": 65,
+      "width": 70,
       "depth": 3.5,
       "unit": "cm"
     },
@@ -474,8 +474,8 @@
     "price": 2850,
     "status": "available",
     "dimensions": {
-      "height": 95,
-      "width": 60,
+      "height": 100,
+      "width": 70,
       "depth": 3,
       "unit": "cm"
     },
@@ -505,8 +505,8 @@
     "price": 2500,
     "status": "available",
     "dimensions": {
-      "height": 70,
-      "width": 85,
+      "height": 33,
+      "width": 45.5,
       "depth": 3,
       "unit": "cm"
     },
@@ -536,8 +536,8 @@
     "price": 3100,
     "status": "sold",
     "dimensions": {
-      "height": 80,
-      "width": 90,
+      "height": 70,
+      "width": 100,
       "depth": 3.5,
       "unit": "cm"
     },
@@ -567,8 +567,8 @@
     "price": 2900,
     "status": "available",
     "dimensions": {
-      "height": 105,
-      "width": 65,
+      "height": 100,
+      "width": 70,
       "depth": 3.5,
       "unit": "cm"
     },
@@ -599,7 +599,7 @@
     "status": "available",
     "dimensions": {
       "height": 100,
-      "width": 65,
+      "width": 70,
       "depth": 3,
       "unit": "cm"
     },
@@ -630,7 +630,7 @@
     "status": "available",
     "dimensions": {
       "height": 70,
-      "width": 85,
+      "width": 100,
       "depth": 3,
       "unit": "cm"
     },
@@ -661,7 +661,7 @@
     "status": "available",
     "dimensions": {
       "height": 70,
-      "width": 85,
+      "width": 100,
       "depth": 3,
       "unit": "cm"
     },
@@ -691,8 +691,8 @@
     "price": 2300,
     "status": "available",
     "dimensions": {
-      "height": 95,
-      "width": 65,
+      "height": 100,
+      "width": 70,
       "depth": 3,
       "unit": "cm"
     },
@@ -723,7 +723,7 @@
     "status": "available",
     "dimensions": {
       "height": 100,
-      "width": 65,
+      "width": 70,
       "depth": 3,
       "unit": "cm"
     },

@@ -1,14 +1,15 @@
 {
   "name": "galeria-arte",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "optimize-images": "node scripts/optimize-images.js"
+    "optimize-images": "node scripts/optimize-images.js",
+    "check-images": "node scripts/detect-caption-bars.js"
   },
   "dependencies": {
     "lucide-react": "^1.60.0",
