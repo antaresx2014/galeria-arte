@@ -83,10 +83,10 @@ export const AdminDrawer: React.FC<AdminDrawerProps> = ({
     setActiveTab('inventory');
   };
 
-  const exportTsCode = `export const INITIAL_ARTWORKS: Artwork[] = ${JSON.stringify(artworks, null, 2)};`;
+  const exportJsonCode = JSON.stringify(artworks, null, 2);
 
   const copyToClipboard = () => {
-    navigator.clipboard?.writeText(exportTsCode);
+    navigator.clipboard?.writeText(exportJsonCode);
     setCopiedCode(true);
     setTimeout(() => setCopiedCode(false), 2000);
   };
@@ -145,7 +145,7 @@ export const AdminDrawer: React.FC<AdminDrawerProps> = ({
             }`}
           >
             <Code className="w-3.5 h-3.5" />
-            <span>Exportar TS</span>
+            <span>Exportar JSON</span>
           </button>
         </div>
 
@@ -334,11 +334,11 @@ export const AdminDrawer: React.FC<AdminDrawerProps> = ({
             </form>
           )}
 
-          {/* TAB 3: EXPORT TYPESCRIPT */}
+          {/* TAB 3: EXPORT JSON */}
           {activeTab === 'export' && (
             <div className="space-y-4">
-              <div className="p-3 bg-gold-50 border border-gold-200 rounded text-xs text-gold-900">
-                Puedes copiar este código TypeScript e insertarlo directamente en <code>src/data/artworks.ts</code> para conservar de forma permanente los cambios realizados.
+              <div className="p-3 bg-gold-50 border border-gold-200 rounded text-xs text-gold-900 leading-relaxed">
+                Puedes copiar este JSON e insertarlo directamente en <code>src/data/catalog.json</code> para conservar de forma permanente los cambios realizados en el catálogo sin tocar el código fuente.
               </div>
 
               <div className="relative">
@@ -347,10 +347,10 @@ export const AdminDrawer: React.FC<AdminDrawerProps> = ({
                   className="absolute top-3 right-3 px-3 py-1.5 bg-gallery-900 text-white text-xs rounded flex items-center gap-1.5 hover:bg-gold-700 transition-colors"
                 >
                   {copiedCode ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
-                  <span>{copiedCode ? '¡Copiado!' : 'Copiar TS'}</span>
+                  <span>{copiedCode ? '¡Copiado!' : 'Copiar JSON'}</span>
                 </button>
                 <pre className="p-4 bg-gallery-900 text-gallery-200 text-[11px] font-mono rounded overflow-x-auto max-h-[400px]">
-                  {exportTsCode}
+                  {exportJsonCode}
                 </pre>
               </div>
             </div>

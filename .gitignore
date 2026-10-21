@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Heavy original images from artist Google Drive (never commit to git)
+raw_images/
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

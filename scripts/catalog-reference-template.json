@@ -1,0 +1,32 @@
+[
+  {
+    "id": "art-siguiente",
+    "slug": "obra-001-gallinazos",
+    "title": "Gallinazos",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/obra-001-gallinazos.webp",
+    "galleryImages": [
+      "/obras/obra-001-gallinazos.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  }
+]
