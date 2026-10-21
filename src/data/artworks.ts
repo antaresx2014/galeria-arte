@@ -1,5 +1,7 @@
 import type { Artwork } from '../types/artwork';
+import type { SiteContent } from '../types/siteContent';
 import catalogData from './catalog.json';
+import siteContentRaw from './siteContent.json';
 
 const baseUrl = import.meta.env.BASE_URL || '/';
 
@@ -17,36 +19,29 @@ export const resolveAssetUrl = (path: string): string => {
   return `${prefix}${clean}`;
 };
 
+/**
+ * Textos desacoplados del sitio desde siteContent.json
+ */
+export const INITIAL_SITE_CONTENT: SiteContent = {
+  ...siteContentRaw,
+  artist: {
+    ...siteContentRaw.artist,
+    portraitImage: resolveAssetUrl(siteContentRaw.artist.portraitImage),
+    studioImage: resolveAssetUrl(siteContentRaw.artist.studioImage),
+  }
+} as SiteContent;
+
+/**
+ * Retrocompatibilidad con componentes que consumen ARTIST_INFO
+ */
 export const ARTIST_INFO = {
-  name: 'Tomás Odión',
-  tagline: 'Expresionismo Figurativo, Simbolismo & Empastes Táctiles',
-  location: 'Barcelona, España',
-  bio: 'Tomás Odión es un pintor plástico contemporáneo cuya obra se caracteriza por una potente carga cromática, trazos matéricos directos y un lenguaje visual expresionista y simbólico. En sus composiciones conviven figuras humanas entrelazadas con la naturaleza, visiones alegóricas, naturalezas vivas y fauna totémica donde el empaste denso y la vibración del color son protagonistas absolutos.',
-  statement: '"Pintar es dialogar con la materia y la emoción sin filtros. Cada golpe de espátula y cada mancha buscan revelar la fuerza visceral de lo vivo."',
-  exhibitions: [
-    { year: 2025, title: 'Fuerza & Materia', venue: 'Galería de Arte Contemporáneo (Individual)' },
-    { year: 2024, title: 'Naturalezas Vivas & Expresión', venue: 'Salón de Bellas Artes' },
-    { year: 2023, title: 'Figuras en el Espacio', venue: 'Exposición Colectiva de Pintura' },
-    { year: 2022, title: 'Color y Trazos de Autor', venue: 'Colección Privada' },
-  ],
-  awards: [
-    'Reconocimiento a la Trayectoria Plástica',
-    'Premio de Pintura Expresionista',
-    'Seleccionado en Certámenes Nacionales de Bellas Artes'
-  ],
-  stats: {
-    worksInCollections: '80+',
-    countriesCollected: '12',
-    yearsActive: '20+'
-  },
-  portraitImage: resolveAssetUrl('/artista/artista-retrato.webp'),
-  studioImage: resolveAssetUrl('/artista/artista-escultura.webp'),
-  whatsappNumber: '+34600112233',
-  contactEmail: 'adquisiciones@tomasodion-arte.com'
+  ...INITIAL_SITE_CONTENT.artist,
+  whatsappNumber: INITIAL_SITE_CONTENT.contact.whatsappNumber,
+  contactEmail: INITIAL_SITE_CONTENT.contact.contactEmail,
 };
 
 /**
- * Catálogo cargado dinámicamente desde el JSON desacoplado
+ * Catálogo cargado dinámicamente desde catalog.json
  */
 export const INITIAL_ARTWORKS: Artwork[] = (catalogData as Artwork[]).map(art => ({
   ...art,

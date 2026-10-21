@@ -1,9 +1,10 @@
 import { useState, useMemo } from 'react';
 import type { Artwork, FilterState } from './types/artwork';
-import { INITIAL_ARTWORKS } from './data/artworks';
+import type { SiteContent } from './types/siteContent';
+import { INITIAL_ARTWORKS, INITIAL_SITE_CONTENT } from './data/artworks';
 import { getSizeCategory } from './utils/formatters';
 
-// Components
+// Client Components
 import { Navbar } from './components/layout/Navbar';
 import { Hero } from './components/home/Hero';
 import { ArtworkFilter } from './components/catalog/ArtworkFilter';
@@ -11,12 +12,20 @@ import { ArtworkGrid } from './components/catalog/ArtworkGrid';
 import { ArtworkDetailModal } from './components/modal/ArtworkDetailModal';
 import { AcquisitionModal } from './components/modal/AcquisitionModal';
 import { ArtistSection } from './components/artist/ArtistSection';
-import { AdminDrawer } from './components/admin/AdminDrawer';
 import { Footer } from './components/layout/Footer';
 
+// Local-First Admin Components (Exclusive for DEV)
+import { DevEnvironmentBar } from './components/admin/DevEnvironmentBar';
+import { LocalAdminPanel } from './components/admin/LocalAdminPanel';
+
 export function App() {
-  // Inventory state
+  // 1. Single source of truth states
+  const [siteContent, setSiteContent] = useState<SiteContent>(INITIAL_SITE_CONTENT);
   const [artworks, setArtworks] = useState<Artwork[]>(INITIAL_ARTWORKS);
+
+  // 2. Local-First Dev View Mode (Client View vs Local Admin CMS)
+  const isDev = import.meta.env.DEV;
+  const [viewMode, setViewMode] = useState<'client' | 'admin'>('client');
 
   // Filters & sorting state
   const [filters, setFilters] = useState<FilterState>({
@@ -42,9 +51,6 @@ export function App() {
     artwork: null,
     mode: 'reserve',
   });
-
-  // Admin drawer state
-  const [isAdminOpen, setIsAdminOpen] = useState(false);
 
   // Counts
   const availableCount = useMemo(() => {
@@ -100,6 +106,11 @@ export function App() {
         return true;
       })
       .sort((a, b) => {
+        if (filters.sortBy === 'featured') {
+          if (a.featured && !b.featured) return -1;
+          if (!a.featured && b.featured) return 1;
+          return 0;
+        }
         if (filters.sortBy === 'price-asc') {
           return a.price - b.price;
         }
@@ -114,21 +125,17 @@ export function App() {
           const areaB = b.dimensions.height * b.dimensions.width;
           return areaB - areaA;
         }
-        // 'featured'
-        if (a.featured && !b.featured) return -1;
-        if (!a.featured && b.featured) return 1;
         return 0;
       });
   }, [artworks, filters]);
 
-  // Handlers for Artwork selection
   const handleOpenDetail = (artwork: Artwork, tab: 'gallery' | 'room' = 'gallery') => {
     setSelectedArtwork(artwork);
     setModalInitialTab(tab);
     setIsDetailModalOpen(true);
   };
 
-  const handleOpenAcquisition = (artwork: Artwork, mode: 'reserve' | 'inquiry') => {
+  const handleOpenAcquisition = (artwork: Artwork, mode: 'reserve' | 'inquiry' = 'reserve') => {
     setAcquisitionState({
       isOpen: true,
       artwork,
@@ -136,126 +143,99 @@ export function App() {
     });
   };
 
-  // Admin inventory handlers
-  const handleToggleStatus = (id: string) => {
-    setArtworks((prev) =>
-      prev.map((art) => {
-        if (art.id === id) {
-          return {
-            ...art,
-            status: art.status === 'available' ? 'sold' : 'available',
-          };
-        }
-        return art;
-      })
-    );
-    // If selected artwork is updated, update its instance
-    if (selectedArtwork && selectedArtwork.id === id) {
-      setSelectedArtwork((prev) =>
-        prev
-          ? {
-              ...prev,
-              status: prev.status === 'available' ? 'sold' : 'available',
-            }
-          : null
-      );
-    }
-  };
-
-  const handleUpdatePrice = (id: string, newPrice: number) => {
-    setArtworks((prev) =>
-      prev.map((art) => (art.id === id ? { ...art, price: newPrice } : art))
-    );
-  };
-
-  const handleAddArtwork = (newArt: Artwork) => {
-    setArtworks((prev) => [newArt, ...prev]);
-  };
-
-  const handleResetArtworks = () => {
-    setArtworks(INITIAL_ARTWORKS);
-  };
-
   return (
     <div className="min-h-screen bg-gallery-50 text-gallery-900 font-sans flex flex-col selection:bg-gold-100 selection:text-gold-900">
       
-      {/* Editorial Luxury Header / Navigation */}
-      <Navbar
-        onOpenAdmin={() => setIsAdminOpen(true)}
-        artworksCount={artworks.length}
-      />
-
-      <main className="flex-1">
-        {/* Hero Section Editorial */}
-        <Hero
-          featuredArtwork={featuredArtwork}
-          onSelectArtwork={(art) => handleOpenDetail(art, 'room')}
-        />
-
-        {/* Dynamic Filtering, Searching & Sorting */}
-        <ArtworkFilter
-          filters={filters}
-          onFilterChange={setFilters}
-          totalCount={artworks.length}
-          filteredCount={filteredArtworks.length}
-          availableCount={availableCount}
-          soldCount={soldCount}
-        />
-
-        {/* Artworks Catalog Grid */}
-        <ArtworkGrid
-          artworks={filteredArtworks}
-          onSelectArtwork={(art) => handleOpenDetail(art, 'gallery')}
-          onQuickViewInRoom={(art) => handleOpenDetail(art, 'room')}
-          onResetFilters={() =>
-            setFilters({
-              category: 'Todos',
-              size: 'Todos',
-              status: 'Todos',
-              sortBy: 'featured',
-              searchQuery: '',
-            })
-          }
-        />
-
-        {/* Artist Biography & Studio Section */}
-        <ArtistSection />
-      </main>
-
-      {/* Luxury Footer with VIP circle */}
-      <Footer />
-
-      {/* Product Detail Modal (Saatchi Art & Crystal Dream IX style) */}
-      <ArtworkDetailModal
-        artwork={selectedArtwork}
-        isOpen={isDetailModalOpen}
-        initialTab={modalInitialTab}
-        onClose={() => setIsDetailModalOpen(false)}
-        onOpenAcquisition={handleOpenAcquisition}
-      />
-
-      {/* Fast Acquisition / WhatsApp / Inquiry Modal */}
-      {acquisitionState.artwork && (
-        <AcquisitionModal
-          artwork={acquisitionState.artwork}
-          mode={acquisitionState.mode}
-          isOpen={acquisitionState.isOpen}
-          onClose={() =>
-            setAcquisitionState((prev) => ({ ...prev, isOpen: false }))
-          }
+      {/* 1. DEV Environment Top Switcher (Rendered ONLY in local development) */}
+      {isDev && (
+        <DevEnvironmentBar
+          viewMode={viewMode}
+          onChangeViewMode={setViewMode}
+          artworksCount={artworks.length}
         />
       )}
 
-      {/* Lightweight Admin Panel Drawer */}
-      <AdminDrawer
-        isOpen={isAdminOpen}
-        onClose={() => setIsAdminOpen(false)}
-        artworks={artworks}
-        onToggleStatus={handleToggleStatus}
-        onUpdatePrice={handleUpdatePrice}
-        onAddArtwork={handleAddArtwork}
-        onResetArtworks={handleResetArtworks}
-      />
+      {/* 2. MODE: Local Admin CMS (Rendered ONLY when dev switches to admin mode) */}
+      {isDev && viewMode === 'admin' ? (
+        <LocalAdminPanel
+          content={siteContent}
+          artworks={artworks}
+          onUpdateContent={setSiteContent}
+          onUpdateArtworks={setArtworks}
+          onExitAdmin={() => setViewMode('client')}
+        />
+      ) : (
+        /* 3. MODE: Pure Public Client Gallery View (Shown in Production & Client Preview) */
+        <>
+          {/* Editorial Luxury Header / Navigation */}
+          <Navbar
+            siteContent={siteContent}
+            artworksCount={artworks.length}
+          />
+
+          <main className="flex-1">
+            {/* Hero Section Editorial */}
+            <Hero
+              featuredArtwork={featuredArtwork}
+              onSelectArtwork={(art) => handleOpenDetail(art, 'room')}
+              siteContent={siteContent}
+            />
+
+            {/* Dynamic Filtering, Searching & Sorting */}
+            <ArtworkFilter
+              filters={filters}
+              onFilterChange={setFilters}
+              totalCount={artworks.length}
+              filteredCount={filteredArtworks.length}
+              availableCount={availableCount}
+              soldCount={soldCount}
+            />
+
+            {/* Artworks Catalog Grid */}
+            <ArtworkGrid
+              artworks={filteredArtworks}
+              onSelectArtwork={(art) => handleOpenDetail(art, 'gallery')}
+              onQuickViewInRoom={(art) => handleOpenDetail(art, 'room')}
+              onResetFilters={() =>
+                setFilters({
+                  category: 'Todos',
+                  size: 'Todos',
+                  status: 'Todos',
+                  sortBy: 'featured',
+                  searchQuery: '',
+                })
+              }
+            />
+
+            {/* Artist Biography & Studio Section */}
+            <ArtistSection siteContent={siteContent} />
+          </main>
+
+          {/* Luxury Footer with VIP circle */}
+          <Footer siteContent={siteContent} />
+
+          {/* Product Detail Modal */}
+          <ArtworkDetailModal
+            artwork={selectedArtwork}
+            isOpen={isDetailModalOpen}
+            initialTab={modalInitialTab}
+            onClose={() => setIsDetailModalOpen(false)}
+            onOpenAcquisition={handleOpenAcquisition}
+          />
+
+          {/* Fast Acquisition / WhatsApp / Inquiry Modal */}
+          {acquisitionState.artwork && (
+            <AcquisitionModal
+              artwork={acquisitionState.artwork}
+              mode={acquisitionState.mode}
+              isOpen={acquisitionState.isOpen}
+              onClose={() =>
+                setAcquisitionState((prev) => ({ ...prev, isOpen: false }))
+              }
+            />
+          )}
+        </>
+      )}
 
     </div>
   );

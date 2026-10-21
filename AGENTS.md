@@ -19,10 +19,14 @@ Este documento define las reglas de desarrollo, diseño y arquitectura de datos 
 
 ---
 
-## 🎨 Skill 2: Gestión de Datos del Artista (`src/data/artworks.ts`)
+## 🎨 Skill 2: Gestión de Datos Desacoplada (`catalog.json` y `siteContent.json`)
 
-1. **Tipado Estricto de TypeScript:**
-   Cualquier obra nueva añadida al inventario debe cumplir rigurosamente la interfaz `Artwork` (`src/types/artwork.ts`):
+1. **Fuentes Físicas Desacopladas:**
+   - **Catálogo de Obras:** `src/data/catalog.json` (Array tipado según `Artwork`).
+   - **Textos de la Web:** `src/data/siteContent.json` (Portada, biografía en Barcelona, garantías, contactos).
+   - **Capa Adaptadora:** `src/data/artworks.ts` resuelve rutas relativas con `resolveAssetUrl` para compatibilidad local y en GitHub Pages.
+
+2. **Tipado Estricto de TypeScript (`src/types/artwork.ts`):**
    ```typescript
    {
      id: string;               // Formato estándar: 'art-001', 'art-002', etc.
@@ -45,7 +49,7 @@ Este documento define las reglas de desarrollo, diseño y arquitectura de datos 
      frameDetails: string;     // Detalle del marco (roble, haya, aluminio, etc.)
      certificateIncluded: true;// Certificado de autenticidad firmado por Tomás Odión
      edition: 'Obra original única (1 de 1)';
-     primaryImage: string;     // Ruta estándar: '/obras/OBRA-XXX-[slug].jpg'
+     primaryImage: string;     // Ruta estándar WebP: '/obras/obra-XXX-[slug].webp'
      galleryImages: string[];
      description: string;      // Análisis formal y matérico
      inspirationStory: string; // Narrativa conceptual vinculada al estudio de Barcelona
@@ -55,29 +59,36 @@ Este documento define las reglas de desarrollo, diseño y arquitectura de datos 
    }
    ```
 
-2. **Nomenclatura de Archivos Multimedia:**
-   - Todas las imágenes deben residir en `public/obras/` bajo la nomenclatura:  
-     `OBRA-[NÚMERO]-[slug].jpg` (ejemplo: `OBRA-001-gallinazos.jpg`).
-   - Las imágenes deben estar recortadas con precisión sin marcos fotográficos externos no deseados.
+3. **Nomenclatura y Optimización de Archivos Multimedia:**
+   - Todas las imágenes finales de producción deben residir en `public/obras/` en formato `.webp` optimizado a 82% de calidad con lado mayor máximo de 1600px.
+   - Nomenclatura normalizada: `obra-[número]-[slug].webp` (minúsculas, guiones, sin espacios ni tildes).
+   - Carpeta `raw_images/` para fotos pesadas en bruto de Google Drive, excluida permanentemente de Git (`.gitignore`).
 
 ---
 
-## 🚀 Skill 3: Experiencia de Usuario, Filtrado y Conversión
+## 🛠️ Skill 3: CMS Persistente "Solo en Local" (Local-First Admin)
+
+1. **Separación por Entorno:**
+   - **Producción (`import.meta.env.PROD`):** Vista pública 100% limpia. Sin candados, sin accesos de administración ni botones de edición.
+   - **Local (`import.meta.env.DEV`):** Barra superior de control fija conmutador entre "👁️ Vista Cliente" y "🛠️ Modo Administrador (Local)".
+2. **Middleware Local de Escritura Directa en Disco:**
+   - Endpoints exclusivos de desarrollo en `vite.config.ts`:
+     - `POST /api/local-admin/save-content`: Sobrescribe `src/data/siteContent.json`.
+     - `POST /api/local-admin/save-catalog`: Sobrescribe `src/data/catalog.json`.
+     - `POST /api/local-admin/upload-image`: Convierte a WebP con `sharp` y guarda en `public/obras/`.
+3. **Flujo de Trabajo:**
+   - Realizar modificaciones en el CMS local (`npm run dev`).
+   - Comprobar en "Vista Cliente".
+   - Guardar cambios (se escriben directamente en los archivos JSON físicos).
+   - Ejecutar `git commit` y `git push origin main` para publicar en GitHub Pages.
+
+---
+
+## 🚀 Skill 4: Experiencia de Usuario, Filtrado y Conversión
 
 1. **Filtrado y Búsqueda Dinámica:**
-   - El catálogo debe mantener el sistema reactivo multi-criterio:
-     - Por **Serie / Categoría** (`Todos`, `Figurativo`, `Paisaje`, `Dibujo/Boceto`, `Abstracto`).
-     - Por **Formato / Tamaño** (`Pequeño <50 cm`, `Mediano 50-100 cm`, `Grande >100 cm`).
-     - Por **Disponibilidad** (`Todos`, `Disponibles`, `Vendidos`).
-     - Por **Ordenación** (precio ascendente/descendente, año, mayor tamaño).
-     - Por **Búsqueda textual** instantánea en título, técnica y descripción.
-
-2. **Simulador "Ver en tu pared" (View in a Room):**
-   - El renderizado en sala debe respetar fielmente las dimensiones físicas en centímetros respecto al salón de referencia para ofrecer una escala real al coleccionista.
-   - Mantener personalizadores interactivos de color de pared y tipos de marco flotante.
-
-3. **Flujo de Conversión de Alta Fidelidad:**
-   - Cada botón de adquisición o consulta debe redirigir fluidamente con la referencia exacta del cuadro (`Ref: art-XXX`), título y precio preconfigurado hacia:
-     1. **WhatsApp directo** del atelier (`+34 600 11 22 33`).
-     2. **Email de adquisiciones** (`adquisiciones@tomasodion-arte.com`).
-     3. **Formulario modal de reserva** para generación de solicitud y factura proforma.
+   - Sistema multi-criterio reactivo por serie/categoría, tamaño (<50cm, 50-100cm, >100cm), estado de disponibilidad y búsqueda por texto.
+2. **Simulador "Ver en tu pared":**
+   - Renderizado en sala a escala física real calculada según los centímetros del cuadro frente a la pared de referencia.
+3. **Flujo de Conversión Directa:**
+   - WhatsApp directo (+34 600 11 22 33), email de adquisiciones y formulario proforma con referencia precargada (`art-XXX`).

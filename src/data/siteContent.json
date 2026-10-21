@@ -1,0 +1,111 @@
+{
+  "artist": {
+    "name": "Tomás Odión",
+    "tagline": "Expresionismo Figurativo, Simbolismo & Empastes Táctiles",
+    "location": "Barcelona, España",
+    "bio": "Tomás Odión es un pintor plástico contemporáneo cuya obra se caracteriza por una potente carga cromática, trazos matéricos directos y un lenguaje visual expresionista y simbólico. En sus composiciones conviven figuras humanas entrelazadas con la naturaleza, visiones alegóricas, naturalezas vivas y fauna totémica donde el empaste denso y la vibración del color son protagonistas absolutos.",
+    "bioExtended": "Su investigación se centra en la resistencia y respiración de los materiales: la densidad de las arenas volcánicas, la transparencia de las resinas alquídicas y la tensión lumínica del pan de oro de 23 quilates. Cada cuadro es el resultado de semanas de estratificación lenta, respetando los tiempos de fraguado de cada emulsión.",
+    "statement": "\"Pintar es dialogar con la materia y la emoción sin filtros. Cada golpe de espátula y cada mancha buscan revelar la fuerza visceral de lo vivo.\"",
+    "exhibitions": [
+      {
+        "year": 2025,
+        "title": "Fuerza & Materia",
+        "venue": "Galería de Arte Contemporáneo (Individual), Barcelona"
+      },
+      {
+        "year": 2024,
+        "title": "Naturalezas Vivas & Expresión",
+        "venue": "Salón de Bellas Artes, Madrid"
+      },
+      {
+        "year": 2023,
+        "title": "Figuras en el Espacio",
+        "venue": "Exposición Colectiva de Pintura Europea"
+      },
+      {
+        "year": 2022,
+        "title": "Color y Trazos de Autor",
+        "venue": "Colección Privada, Barcelona"
+      }
+    ],
+    "awards": [
+      "Reconocimiento a la Trayectoria Plástica Contemporánea",
+      "Premio de Pintura Expresionista y Nuevos Medios",
+      "Seleccionado en Certámenes Nacionales de Bellas Artes"
+    ],
+    "stats": {
+      "worksInCollections": "80+",
+      "countriesCollected": "12",
+      "yearsActive": "20+",
+      "uniquePiecesPercent": "100%"
+    },
+    "portraitImage": "/artista/artista-retrato.webp",
+    "studioImage": "/artista/artista-escultura.webp"
+  },
+  "contact": {
+    "whatsappNumber": "+34600112233",
+    "contactEmail": "adquisiciones@tomasodion-arte.com",
+    "phoneDisplay": "+34 600 11 22 33",
+    "schedule": "Atelier privado disponible previa cita de lunes a viernes (10:00 - 19:00)",
+    "studioAddress": "Atelier Tomás Odión • Eixample / Poblenou Art District, Barcelona"
+  },
+  "navbar": {
+    "topNoticeLeft": "Obras originales directas del taller del artista en Barcelona",
+    "topNoticeCenter": "Envío asegurado internacional en caja rígida • Certificado firmado 1/1",
+    "collectorSupportText": "Atención Coleccionistas:",
+    "links": {
+      "collection": "Obras",
+      "artist": "El Artista",
+      "atelier": "Atelier",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "badge": "Colección Exclusiva • Obras 1/1 Originales",
+    "atelierPrefix": "Atelier Tomás Odión",
+    "mainTitle": "La materia del silencio,",
+    "mainTitleHighlight": "la pulsión de la tierra.",
+    "exploreBtnText": "Explorar la Colección",
+    "featuredBtnText": "Ver Obra Destacada en Salón",
+    "trustBadges": {
+      "signedCertificate": "Certificado Firmado",
+      "secureShipping": "Envío Asegurado",
+      "atelierLocation": "Atelier Barcelona"
+    }
+  },
+  "artistSection": {
+    "badge": "Trayectoria & Filosofía Plástica",
+    "titlePrefix": "Sobre",
+    "exhibitionsHeading": "Exposiciones Seleccionadas",
+    "awardsHeading": "Premios & Distinciones"
+  },
+  "guarantees": {
+    "authenticity": {
+      "title": "Certificado de Autenticidad 1/1",
+      "description": "Cada obra se entrega con documentación física original numerada, sellada y rubricada de puño y letra por el artista Tomás Odión."
+    },
+    "shipping": {
+      "title": "Transporte Asegurado Especializado",
+      "description": "Embalaje en contenedor rígido de madera a medida y póliza de seguro de transporte de bellas artes a todo riesgo incluida sin coste adicional."
+    },
+    "trial": {
+      "title": "Prueba en tu Hogar (14 días)",
+      "description": "Compruebe la armonía de la pieza con su iluminación y arquitectura interior con total tranquilidad y devolución garantizada."
+    }
+  },
+  "footer": {
+    "subtitle": "Atelier & Galería Privada Contemporánea",
+    "brandDescription": "Comercialización exclusiva de obras pictóricas originales del taller del artista. Obra de autor para colecciones privadas, residencias de diseño y proyectos arquitectónicos singulares.",
+    "locationLabel": "Atelier & Estudio en: Barcelona (España)",
+    "contactLabel": "Contacto directo:",
+    "copyrightNotice": "Todos los derechos reservados. Obras registradas con propiedad intelectual.",
+    "newsletterTitle": "Círculo de Coleccionistas Privados",
+    "newsletterSubtitle": "Reciba antes que nadie el catálogo de nuevas creaciones que salen del caballete de Tomás Odión."
+  },
+  "catalog": {
+    "sectionBadge": "Catálogo Oficial",
+    "sectionTitle": "Obras Disponibles & Colección Privada",
+    "sectionDescription": "Pintura al óleo, técnica mixta y empastes espatulados sobre lienzos de lino belga. Cada cuadro es una pieza única e irrepetible.",
+    "emptyMessage": "No se encontraron obras con los filtros seleccionados."
+  }
+}

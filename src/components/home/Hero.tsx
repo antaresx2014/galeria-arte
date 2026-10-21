@@ -1,15 +1,16 @@
 import React from 'react';
 import type { Artwork } from '../../types/artwork';
-import { ARTIST_INFO } from '../../data/artworks';
+import type { SiteContent } from '../../types/siteContent';
 import { formatPrice } from '../../utils/formatters';
 import { ArrowDown, Sparkles, Eye, ShieldCheck, Compass, Award } from 'lucide-react';
 
 interface HeroProps {
   featuredArtwork: Artwork;
   onSelectArtwork: (artwork: Artwork) => void;
+  siteContent: SiteContent;
 }
 
-export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) => {
+export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork, siteContent }) => {
   return (
     <section className="relative w-full bg-gallery-50 overflow-hidden border-b border-gallery-200">
       {/* Background Texture & Ambient Light */}
@@ -25,31 +26,33 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-white border border-gallery-300/80 rounded-full shadow-xs">
               <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
               <span className="text-xs uppercase tracking-widest text-gallery-700 font-medium">
-                Colección Exclusiva • Obras 1/1 Originales
+                {siteContent.hero.badge}
               </span>
             </div>
 
             {/* Main Editorial Title */}
             <div className="space-y-3">
               <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gold-700 font-semibold">
-                Atelier {ARTIST_INFO.name}
+                {siteContent.hero.atelierPrefix}
               </p>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl tracking-tight text-gallery-900 leading-[1.1]">
-                La materia del silencio, <br />
-                <span className="italic font-normal text-gallery-700">la pulsión de la tierra.</span>
+                {siteContent.hero.mainTitle} <br />
+                <span className="italic font-normal text-gallery-700">
+                  {siteContent.hero.mainTitleHighlight}
+                </span>
               </h1>
             </div>
 
             {/* Artist Statement */}
             <blockquote className="border-l-2 border-gold pl-5 py-1 text-gallery-600 italic text-base sm:text-lg leading-relaxed font-serif">
-              {ARTIST_INFO.statement}
+              {siteContent.artist.statement}
             </blockquote>
 
             {/* Quick Summary Pill / Highlights */}
             <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-2 pb-2 border-y border-gallery-200">
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-semibold text-gallery-900">
-                  {ARTIST_INFO.stats.worksInCollections}
+                  {siteContent.artist.stats.worksInCollections}
                 </p>
                 <p className="text-[11px] sm:text-xs text-gallery-500 uppercase tracking-wider">
                   Obras en Colección
@@ -57,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
               </div>
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-semibold text-gallery-900">
-                  100%
+                  {siteContent.artist.stats.uniquePiecesPercent}
                 </p>
                 <p className="text-[11px] sm:text-xs text-gallery-500 uppercase tracking-wider">
                   Piezas Únicas 1/1
@@ -65,7 +68,7 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
               </div>
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-semibold text-gallery-900">
-                  {ARTIST_INFO.stats.countriesCollected}
+                  {siteContent.artist.stats.countriesCollected}
                 </p>
                 <p className="text-[11px] sm:text-xs text-gallery-500 uppercase tracking-wider">
                   Países con Coleccionistas
@@ -79,7 +82,7 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
                 href="#catalogo"
                 className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 bg-gallery-900 hover:bg-gold-700 text-white text-xs sm:text-sm uppercase tracking-widest font-medium transition-all duration-300 shadow-md hover:shadow-lg group"
               >
-                <span>Explorar la Colección</span>
+                <span>{siteContent.hero.exploreBtnText}</span>
                 <ArrowDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
               </a>
 
@@ -88,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white hover:bg-gallery-100 text-gallery-900 border border-gallery-300 text-xs sm:text-sm uppercase tracking-widest font-medium transition-colors"
               >
                 <Eye className="w-4 h-4 text-gold-600" />
-                <span>Ver Obra Destacada en Salón</span>
+                <span>{siteContent.hero.featuredBtnText}</span>
               </button>
             </div>
 
@@ -96,20 +99,20 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
             <div className="flex items-center gap-6 text-xs text-gallery-500 pt-2">
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-gold" />
-                Certificado Firmado
+                {siteContent.hero.trustBadges.signedCertificate}
               </span>
               <span className="flex items-center gap-1.5">
                 <Compass className="w-4 h-4 text-gold" />
-                Embalaje Profesional
+                {siteContent.hero.trustBadges.secureShipping}
               </span>
               <span className="flex items-center gap-1.5">
                 <Award className="w-4 h-4 text-gold" />
-                Garantía de Devolución 14d
+                {siteContent.hero.trustBadges.atelierLocation}
               </span>
             </div>
           </div>
 
-          {/* Right Column: Hero Art Presentation (Saatchi Art Style Spotlight) */}
+          {/* Right Column: Hero Art Presentation (Spotlight) */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               
@@ -151,8 +154,10 @@ export const Hero: React.FC<HeroProps> = ({ featuredArtwork, onSelectArtwork }) 
                     <span className="font-serif text-lg font-semibold text-gallery-900">
                       {formatPrice(featuredArtwork.price)}
                     </span>
-                    <p className="text-[10px] text-emerald-700 uppercase tracking-wider font-semibold">
-                      Disponible
+                    <p className={`text-[10px] uppercase tracking-wider font-semibold ${
+                      featuredArtwork.status === 'available' ? 'text-emerald-700' : 'text-red-700'
+                    }`}>
+                      {featuredArtwork.status === 'available' ? 'Disponible' : 'Vendido'}
                     </p>
                   </div>
                 </div>
