@@ -1,8 +1,8 @@
 [
   {
     "id": "art-siguiente",
-    "slug": "obra-001-gallinazos",
-    "title": "Gallinazos",
+    "slug": "ad-n",
+    "title": "Adán",
     "artist": "Tomás Odión",
     "year": 2026,
     "category": "Figurativo",
@@ -20,9 +20,1719 @@
     "frameDetails": "Marco flotante en roble macizo lacado",
     "certificateIncluded": true,
     "edition": "Obra original única (1 de 1)",
-    "primaryImage": "/obras/obra-001-gallinazos.webp",
+    "primaryImage": "/obras/adan.webp",
     "galleryImages": [
-      "/obras/obra-001-gallinazos.webp"
+      "/obras/adan.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "aires-malague-os",
+    "title": "Aires malagueños",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/aires-malaguenos.webp",
+    "galleryImages": [
+      "/obras/aires-malaguenos.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "arag-n-pueblo",
+    "title": "Aragón pueblo",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/aragon-pueblo.webp",
+    "galleryImages": [
+      "/obras/aragon-pueblo.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "atardecer",
+    "title": "Atardecer",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/atardecer.webp",
+    "galleryImages": [
+      "/obras/atardecer.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "barco",
+    "title": "Barco",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/barco.webp",
+    "galleryImages": [
+      "/obras/barco.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "bonsai",
+    "title": "Bonsai",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/bonsai.webp",
+    "galleryImages": [
+      "/obras/bonsai.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "calzones-padre",
+    "title": "Calzones Padre",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/calzones-padre.webp",
+    "galleryImages": [
+      "/obras/calzones-padre.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "can-nigo",
+    "title": "Canónigo",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/canonigo.webp",
+    "galleryImages": [
+      "/obras/canonigo.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "cardo",
+    "title": "Cardo",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/cardo.webp",
+    "galleryImages": [
+      "/obras/cardo.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "casa-soutine",
+    "title": "Casa Soutine",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/casa-soutine.webp",
+    "galleryImages": [
+      "/obras/casa-soutine.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "casas-viejas",
+    "title": "Casas viejas",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/casas-viejas.webp",
+    "galleryImages": [
+      "/obras/casas-viejas.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "descalza-reina",
+    "title": "Descalza Reina",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/descalza-reina.webp",
+    "galleryImages": [
+      "/obras/descalza-reina.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "ensayo-brujas",
+    "title": "Ensayo brujas",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/ensayo-brujas.webp",
+    "galleryImages": [
+      "/obras/ensayo-brujas.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "esquilo",
+    "title": "Esquilo",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/esquilo.webp",
+    "galleryImages": [
+      "/obras/esquilo.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "fam-lia-grande",
+    "title": "Família grande",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/familia-grande.webp",
+    "galleryImages": [
+      "/obras/familia-grande.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "flores-ira",
+    "title": "Flores ira",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/flores-ira.webp",
+    "galleryImages": [
+      "/obras/flores-ira.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "floresta",
+    "title": "Floresta",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/floresta.webp",
+    "galleryImages": [
+      "/obras/floresta.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "fumador",
+    "title": "Fumador",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/fumador.webp",
+    "galleryImages": [
+      "/obras/fumador.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "f-tima",
+    "title": "Fátima",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/fatima.webp",
+    "galleryImages": [
+      "/obras/fatima.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "f-siles",
+    "title": "Fósiles",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/fosiles.webp",
+    "galleryImages": [
+      "/obras/fosiles.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "galante-escena",
+    "title": "Galante escena",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/galante-escena.webp",
+    "galleryImages": [
+      "/obras/galante-escena.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "geom-tricos",
+    "title": "Geométricos",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/geometricos.webp",
+    "galleryImages": [
+      "/obras/geometricos.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "golfo",
+    "title": "Golfo",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/golfo.webp",
+    "galleryImages": [
+      "/obras/golfo.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "goretti",
+    "title": "Goretti",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/goretti.webp",
+    "galleryImages": [
+      "/obras/goretti.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "hechicera",
+    "title": "Hechicera",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/hechicera.webp",
+    "galleryImages": [
+      "/obras/hechicera.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "infantas",
+    "title": "Infantas",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/infantas.webp",
+    "galleryImages": [
+      "/obras/infantas.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "inquisidores",
+    "title": "Inquisidores",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/inquisidores.webp",
+    "galleryImages": [
+      "/obras/inquisidores.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "jerusalem",
+    "title": "Jerusalem",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/jerusalem.webp",
+    "galleryImages": [
+      "/obras/jerusalem.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "jesusin",
+    "title": "Jesusin",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/jesusin.webp",
+    "galleryImages": [
+      "/obras/jesusin.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "lechera",
+    "title": "Lechera",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/lechera.webp",
+    "galleryImages": [
+      "/obras/lechera.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "lectora-detalle",
+    "title": "Lectora.(Detalle)",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/lectora-detalle.webp",
+    "galleryImages": [
+      "/obras/lectora-detalle.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "lilith",
+    "title": "Lilith",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/lilith.webp",
+    "galleryImages": [
+      "/obras/lilith.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "livia",
+    "title": "Livia",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/livia.webp",
+    "galleryImages": [
+      "/obras/livia.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "malague-a-v-rgen",
+    "title": "Malagueña vírgen",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/malaguena-virgen.webp",
+    "galleryImages": [
+      "/obras/malaguena-virgen.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "malague-as",
+    "title": "Malagueñas",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/malaguenas.webp",
+    "galleryImages": [
+      "/obras/malaguenas.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "ma-ana",
+    "title": "Mañana",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/manana.webp",
+    "galleryImages": [
+      "/obras/manana.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "mesa",
+    "title": "Mesa",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/mesa.webp",
+    "galleryImages": [
+      "/obras/mesa.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "mimo",
+    "title": "Mimo",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/mimo.webp",
+    "galleryImages": [
+      "/obras/mimo.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "mosquito",
+    "title": "Mosquito",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/mosquito.webp",
+    "galleryImages": [
+      "/obras/mosquito.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "naufragio",
+    "title": "Naufragio",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/naufragio.webp",
+    "galleryImages": [
+      "/obras/naufragio.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "nocturnidad",
+    "title": "Nocturnidad",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/nocturnidad.webp",
+    "galleryImages": [
+      "/obras/nocturnidad.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "noriko",
+    "title": "Noriko",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/noriko.webp",
+    "galleryImages": [
+      "/obras/noriko.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "palomar",
+    "title": "Palomar",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/palomar.webp",
+    "galleryImages": [
+      "/obras/palomar.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "pa-uelo-mujer",
+    "title": "Pañuelo mujer",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/panuelo-mujer.webp",
+    "galleryImages": [
+      "/obras/panuelo-mujer.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "pintora",
+    "title": "Pintora",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/pintora.webp",
+    "galleryImages": [
+      "/obras/pintora.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "prepirineos3",
+    "title": "Prepirineos3",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/prepirineos3.webp",
+    "galleryImages": [
+      "/obras/prepirineos3.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "profeteresa",
+    "title": "ProfeTeresa",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/profeteresa.webp",
+    "galleryImages": [
+      "/obras/profeteresa.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "puente-carlos",
+    "title": "Puente Carlos",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/puente-carlos.webp",
+    "galleryImages": [
+      "/obras/puente-carlos.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "rosas",
+    "title": "Rosas",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/rosas.webp",
+    "galleryImages": [
+      "/obras/rosas.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "santa",
+    "title": "Santa",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/santa.webp",
+    "galleryImages": [
+      "/obras/santa.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "selfie",
+    "title": "Selfie",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/selfie.webp",
+    "galleryImages": [
+      "/obras/selfie.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "srapilar",
+    "title": "SraPilar",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/srapilar.webp",
+    "galleryImages": [
+      "/obras/srapilar.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "taza",
+    "title": "Taza",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/taza.webp",
+    "galleryImages": [
+      "/obras/taza.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "tom-sperfil",
+    "title": "Tomásperfil",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/tomasperfil.webp",
+    "galleryImages": [
+      "/obras/tomasperfil.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "tropical",
+    "title": "Tropical",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/tropical.webp",
+    "galleryImages": [
+      "/obras/tropical.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "venus",
+    "title": "Venus",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/venus.webp",
+    "galleryImages": [
+      "/obras/venus.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "verde-sexy",
+    "title": "Verde sexy",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/verde-sexy.webp",
+    "galleryImages": [
+      "/obras/verde-sexy.webp"
+    ],
+    "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
+    "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
+    "shippingInfo": "Envío asegurado en contenedor rígido de madera a medida con seguro a todo riesgo.",
+    "featured": false
+  },
+  {
+    "id": "art-siguiente",
+    "slug": "visitadora-v-rgen",
+    "title": "Visitadora vírgen",
+    "artist": "Tomás Odión",
+    "year": 2026,
+    "category": "Figurativo",
+    "price": 2500,
+    "status": "available",
+    "dimensions": {
+      "height": 80,
+      "width": 100,
+      "depth": 3.5,
+      "unit": "cm"
+    },
+    "medium": "Óleo y técnica mixta con empastes densos",
+    "support": "Lienzo de algodón sobre bastidor de madera maciza",
+    "framed": true,
+    "frameDetails": "Marco flotante en roble macizo lacado",
+    "certificateIncluded": true,
+    "edition": "Obra original única (1 de 1)",
+    "primaryImage": "/obras/visitadora-virgen.webp",
+    "galleryImages": [
+      "/obras/visitadora-virgen.webp"
     ],
     "description": "Nueva obra original de Tomás Odión realizada en el atelier de Barcelona.",
     "inspirationStory": "Inspirada en el diálogo entre materia, color y emoción.",
